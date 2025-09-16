@@ -1,0 +1,8 @@
+{
+  "migrate": {
+    "migrations": "migrations",
+    "migrationFile": "migration",
+    "migrationFileExtension": ".js",
+    "migrationTemplate": "migrationTemplate.js"
+  }
+}
