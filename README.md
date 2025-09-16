@@ -73,18 +73,18 @@ The application uses **node-pg-migrate** for database migrations. Can run migrat
 
 ```bash
   # to setup demo db
- "npm db:migrate:up:test"
+ npm db:migrate:up:test
  # to teardown demo db
- "db:migrate:down:test"
+ npm db:migrate:down:test
 
  # to initialize prod db schema
- "db:initialize:prod"
+ npm db:initialize:prod
  # to teardown prod db schema
- "db:initialize:down:prod"
+ npm db:initialize:down:prod
  # to setup prod db schema + demo data
- "db:setup-demo:prod"
+ npm db:setup-demo:prod
   # to remove demo data from prod db
- "db:setup-demo:down:prod"
+ npm db:setup-demo:down:prod
 ```
 
 **Schema includes:**
