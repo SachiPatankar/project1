@@ -24,7 +24,7 @@ const options = {
         description: 'Development server'
       },
       {
-        url: '',
+        url: 'https://evently-magb.onrender.com',
         description: 'Production server'
       }
     ],
